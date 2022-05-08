@@ -3,6 +3,7 @@ body{
     font-family: 'Inter' , sans-serif;
     width: 550px;
     margin: auto;
+    color: #2B283A;
 }
 
 .Header{
@@ -27,6 +28,9 @@ body{
 .place-box{
     margin: 40px 20px;
     display: flex;
+    padding-top: 5px;
+    margin-bottom: 35px;
+    border-top: 1px solid #F5F5F5;
 }
 
 .place-img{
@@ -44,4 +48,39 @@ body{
 .place-title{
     font-size: 25px;
     font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.place-des{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.place-date{
+    margin-top: 0px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.place-location{
+    font-size: 11px;
+}
+
+.location-link{
+    font-size: 11px;
+    color: #918E9B;
+    margin-left: 13px;
+}
+
+.location-logo{
+    width: 10px;
+}
+
+.location--para{
+    margin-bottom: 5px;
+}
+
+.places :first-child{
+    border:none;
 }

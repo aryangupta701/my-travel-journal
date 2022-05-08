@@ -5,19 +5,17 @@ import Place from './components/Place'
 import data from './data'
 
 function App() {
-  // const places = data.map((item)=>{
-  //     return(
-  //       <Place id={item.id} item={item} />
-  //     )
-  // })
+  const places = data.map((item)=>{
+      return(
+        <Place id={item.id} item={item} className="place-single"/>
+      )
+  })
   return (
     <div className="App">
       <Header />
-      {/* {places} */}
-      <Place 
-        id={data[0].id}
-        item = {data[0]}
-      />
+      <div className='places'>
+        {places} 
+      </div>
     </div>
   );
 }
