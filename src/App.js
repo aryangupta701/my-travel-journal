@@ -7,7 +7,7 @@ import data from './data'
 function App() {
   const places = data.map((item)=>{
       return(
-        <Place id={item.id} item={item} className="place-single"/>
+        <Place key={item.id} item={item} className="place-single"/>
       )
   })
   return (
