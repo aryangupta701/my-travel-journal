@@ -27,6 +27,5 @@ const Place = (props) => {
         </div>
     </div>
   )
-}
-
+  }
 export default Place
